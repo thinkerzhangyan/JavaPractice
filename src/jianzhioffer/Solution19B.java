@@ -1,7 +1,5 @@
 package jianzhioffer;
 
-import sort.Insertion;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,32 +10,42 @@ import java.util.List;
  */
 public class Solution19B {
 
-    public ArrayList<Integer> printMatrix(int[][] array) {
+    public static void main(String[] args) {
+
+        int[][] array = new int[][]{{1}};
+
+        List<Integer> list = printMatrix(array);
+
+        System.out.println(list);
+
+    }
+
+    public static ArrayList<Integer> printMatrix(int[][] array) {
 
         ArrayList<Integer> list = new ArrayList<>();
+
 
         int rows = array.length;
         int columns = array[0].length;
 
-        if (array == null || rows == 0 || columns == 0) {
+        if (array == null || columns <= 0 || rows <= 0) {
             return list;
         }
 
         int start = 0;
 
-        while (rows > 2 * start && columns > start * 2) {
-            printMatrixInCicle(array, rows, columns, start, list);
+        while (start * 2 < rows && start * 2 < columns) {
+            printMatrixInCircle(array, start, rows, columns, list);
             start++;
         }
 
         return list;
-
     }
 
-    private void printMatrixInCicle(int[][] array, int rows, int columns, int start, ArrayList<Integer> list) {
+    private static void printMatrixInCircle(int[][] array, int start, int rows, int columns, ArrayList<Integer> list) {
 
-        int endX = columns - 1 - start;
-        int endY = rows - 1 - start;
+        int endY = rows - start - 1;
+        int endX = columns - start - 1;
 
         for (int i = start; i <= endX; i++) {
             list.add(array[start][i]);
@@ -49,7 +57,7 @@ public class Solution19B {
             }
         }
 
-        if (start < endX && start < endY) {
+        if (start < endY && start < endY) {
             for (int i = endX - 1; i >= start; i--) {
                 list.add(array[endY][i]);
             }
@@ -61,7 +69,9 @@ public class Solution19B {
             }
         }
 
+
     }
+
 
 
 }

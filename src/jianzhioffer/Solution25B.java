@@ -10,23 +10,26 @@ public class Solution25B {
     public RandomListNodeB Clone(RandomListNodeB head) {
 
         if (head == null) {
-            return head;
+            return null;
         }
 
-        RandomListNodeB headClone = new RandomListNodeB(head.label);
+        RandomListNodeB nodeHead = new RandomListNodeB(head.label);
 
+        RandomListNodeB nodeTmp = nodeHead;
 
-        RandomListNodeB nodeNext = headClone.next;
-
-        while (head.next != null) {
+        while (head != null) {
+            if (head.next != null) {
+                nodeTmp.next = new RandomListNodeB(head.next.label);
+            }
+            if (head.random != null) {
+                nodeTmp.random = new RandomListNodeB(head.random.label);
+            }
+            nodeTmp = nodeTmp.next;
             head = head.next;
-            nodeNext.next = new RandomListNodeB(head.next.label);
-            nodeNext.random = new RandomListNodeB(head.next.random.label);
-            nodeNext = nodeNext.next;
         }
 
-        return headClone;
 
+        return nodeHead;
     }
 
 }

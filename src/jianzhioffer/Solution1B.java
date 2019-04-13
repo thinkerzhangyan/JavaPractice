@@ -13,13 +13,14 @@ public class Solution1B {
             return false;
         }
 
-        int row = array.length;
-        int column = array[0].length;
+        int rows = array.length;
+        int columns = array[0].length;
 
         int rowIndex = 0;
-        int columnIndex = column - 1;
+        int columnIndex = columns - 1;
 
-        while (rowIndex < row && columnIndex >= 0) {
+        while (rowIndex < rows && columnIndex >= 0) {
+
             if (array[rowIndex][columnIndex] == target) {
                 return true;
             } else if (array[rowIndex][columnIndex] < target) {

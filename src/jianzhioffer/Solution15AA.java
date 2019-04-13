@@ -7,20 +7,22 @@ package jianzhioffer;
  */
 public class Solution15AA {
 
-    public static ListNode reverse(ListNode root) {
+    public static ListNode reverse(ListNode head) {
 
-        if (root == null) {
+        if (head == null) {
             return null;
         }
 
-        ListNode nodeHead = null;
+
         ListNode nodePre = null;
-        ListNode nodeNow = root;
+        ListNode nodeHead = null;
+        ListNode nodeNow = head;
 
         while (nodeNow != null) {
             ListNode nodeNext = nodeNow.next;
             if (nodeNext == null) {
                 nodeHead = nodeNow;
+                break;
             }
             nodeNow.next = nodePre;
             nodePre = nodeNow;
@@ -28,6 +30,7 @@ public class Solution15AA {
         }
 
         return nodeHead;
+
     }
 
     public static void main(String[] args) {

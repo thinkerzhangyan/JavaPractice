@@ -142,12 +142,12 @@ public class Solution50 {
     // https://www.jianshu.com/p/f0bec6ae99ee?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
     // http://www.cnblogs.com/grandyang/p/4843654.html
     //
-    // 在区间[1, n]中搜索，首先求出中点mid，然后遍历整个数组，统计所有小于等于mid的数的个数，
-    // 如果个数大于mid，则说明重复值在[mid+1, n]之间，反之，重复值应在[1, mid-1]之间，
+    // 在区间[0, n-1]中搜索，首先求出中点mid，然后遍历整个数组，统计所有小于等于mid的数的个数，
+    // 如果个数大于mid，则说明重复值在[0, mid]之间，反之，重复值应在[mid+1, n]之间，
     // 然后依次类推，直到搜索完成，此时的low就是我们要求的重复值，参见代码如下：
     //
     public int duplicateE(int[] nums) {
-        int low = 1, high = nums.length - 1;
+        int low = 0, high = nums.length - 1;
         while (low < high) {
             int mid = low + (high - low) / 2;
             int cnt = 0;
@@ -235,6 +235,8 @@ public class Solution50 {
         System.out.println(solution82.duplicateD(numbers, numbers.length, resultD) + ":" + resultD[0]);
 
         System.out.println(solution82.duplicateE(numbers));
+
+
 
 
     }

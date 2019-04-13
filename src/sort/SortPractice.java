@@ -11,33 +11,25 @@ public class SortPractice {
 
     public static void sort(Integer[] a) {
 
-        int[] helpArray = new int[65536];
 
-        for (int i = 0; i < a.length; i++) {
-            helpArray[a[i]]++;
+        int[] arrayHelp = new int[65536];
+
+        for (int i=0;i<a.length;i++) {
+            arrayHelp[a[i]]++;
         }
 
         int k = 0;
 
-        for (int i = 0; i < helpArray.length; i++) {
-            if (helpArray[i] > 0) {
-                for (int j = 0; j < helpArray[i]; j++) {
+        for (int i=0;i<arrayHelp.length;i++) {
+            if (arrayHelp[i] !=0) {
+                for (int j=0;j<arrayHelp[i];j++) {
                     a[k++] = i;
                 }
             }
         }
+
     }
 
-
-    private static void exch(int[] a, int i, int j) {
-        int tmp = a[i];
-        a[i] = a[j];
-        a[j] = tmp;
-    }
-
-    private static boolean less(int a, int b) {
-        return a < b;
-    }
 
 
     public static void main(String[] args) {

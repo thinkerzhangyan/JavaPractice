@@ -34,26 +34,26 @@ public class Solution13B {
     //数组中奇数位于偶数的前面，相对顺序可以改变。
     public static void reOrderA(int[] array, StandardInterface standardInterface) {
 
-
         if (array == null || array.length == 0) {
             return;
         }
 
-        int headIndex = 0;
-        int tailIndex = array.length - 1;
+        int head = 0;
+        int tail = array.length - 1;
 
-        while (headIndex <= tailIndex) {
 
-            while (headIndex <= tailIndex && !standardInterface.isStandard(array[headIndex])) {
-                headIndex++;
+        while (head < tail) {
+
+            while (head < tail && !standardInterface.isStandard(array[head])) {
+                head++;
             }
 
-            while (headIndex <= tailIndex && standardInterface.isStandard(array[tailIndex])) {
-                tailIndex--;
+            while (head < tail && standardInterface.isStandard(array[tail])) {
+                tail--;
             }
 
-            if (headIndex < tailIndex) {
-                exch(array, headIndex, tailIndex);
+            if (head < tail) {
+                exch(array, head, tail);
             }
 
         }
@@ -68,7 +68,7 @@ public class Solution13B {
         }
 
         for (int i = 1; i < array.length; i++) {
-            for (int j = i; j > 0 && !standardInterface.isStandard(array[j]) && standardInterface.isStandard(array[j - 1]); j--) {
+            for (int j = i; j > 0 && standardInterface.isStandard(array[j - 1]) && !standardInterface.isStandard(array[j]); j--) {
                 exch(array, j, j - 1);
             }
         }

@@ -11,23 +11,23 @@ public class Solution14B {
 
     public ListNode printTheKthNodeToTailA(ListNode head, int k) {
 
-        if (head == null || k == 0)
+        if (head == null || k <= 0) {
             return null;
-
-        ListNode nodeHead = head;
-        ListNode nodeBehind = head;
-
-        while (k - 1 != 0) {
-            nodeHead = nodeHead.next;
-            k--;
-            if (nodeHead == null) {
-                return null;
-            }
         }
 
+        ListNode nodeBehind = head;
+        ListNode nodeFront = head;
 
-        while (nodeHead.next != null) {
-            nodeHead = nodeHead.next;
+        while (k > 0) {
+            if (nodeFront == null) {
+                return null;
+            }
+            nodeFront = nodeFront.next;
+            k--;
+        }
+
+        while (nodeFront != null) {
+            nodeFront = nodeFront.next;
             nodeBehind = nodeBehind.next;
         }
 
@@ -37,7 +37,7 @@ public class Solution14B {
 
     public ListNode FindKthToTailB(ListNode head, int k) {
 
-        if (head == null || k == 0) {
+        if (head == null || k <= 0) {
             return null;
         }
 
@@ -48,18 +48,19 @@ public class Solution14B {
             head = head.next;
         }
 
-        ListNode nodeKth = null;
+        ListNode nodeResult = null;
 
-        while (k != 0) {
-            if (stack.size() != 0) {
-                nodeKth = stack.poll();
+        while (k > 0) {
+
+            if (stack.size() > 0) {
+                nodeResult = stack.pop();
                 k--;
             } else {
                 return null;
             }
         }
 
-        return nodeKth;
+        return nodeResult;
     }
 
 }

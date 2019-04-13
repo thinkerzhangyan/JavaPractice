@@ -1,6 +1,8 @@
 package binarytree;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created by macbook on 2017/10/12.
@@ -104,6 +106,7 @@ public class BinaryTreePractice {
 
     }
 
+
     private void levelOrderOne(BinaryTreeNode root) {
 
         if (root == null) {
@@ -115,6 +118,7 @@ public class BinaryTreePractice {
                 return;
             }
         }
+
     }
 
     private boolean printNodeAtLevelTwo(BinaryTreeNode root, int level, List<String> list) {
@@ -135,6 +139,7 @@ public class BinaryTreePractice {
 
     }
 
+
     private List<List<String>> levelOrderTwo(BinaryTreeNode root) {
 
         List<List<String>> lists = new ArrayList<>();
@@ -153,13 +158,14 @@ public class BinaryTreePractice {
 
     }
 
+
     private void nonRePreOrder(BinaryTreeNode root) {
 
         if (root == null) {
             return;
         }
 
-        Stack<BinaryTreeNode> stack = new Stack<>();
+        LinkedList<BinaryTreeNode> stack = new LinkedList<>();
 
         stack.push(root);
 
@@ -174,7 +180,9 @@ public class BinaryTreePractice {
                 stack.push(root.leftChild);
             }
         }
+
     }
+
 
     private void nonReInOrder(BinaryTreeNode root) {
 
@@ -182,11 +190,11 @@ public class BinaryTreePractice {
             return;
         }
 
-        Stack<BinaryTreeNode> stack = new Stack<>();
+        LinkedList<BinaryTreeNode> stack = new LinkedList<>();
 
         BinaryTreeNode p = root;
 
-        while (p != null || stack.size() > 0) {
+        while (stack.size() > 0 || p != null) {
 
             while (p != null) {
                 stack.push(p);
@@ -194,21 +202,23 @@ public class BinaryTreePractice {
             }
 
             if (stack.size() > 0) {
-                p = stack.pop();
-                myprint(p.data);
-                p = p.rightChild;
+                root = stack.pop();
+                myprint(root.data);
+                p = root.rightChild;
             }
 
         }
 
     }
 
+
     private void nonRePostOrder(BinaryTreeNode root) {
+
         if (root == null) {
             return;
         }
 
-        Stack<BinaryTreeNode> stack = new Stack<>();
+        LinkedList<BinaryTreeNode> stack = new LinkedList<>();
 
         BinaryTreeNode p = root;
 
@@ -218,7 +228,8 @@ public class BinaryTreePractice {
                 stack.push(root);
             }
 
-            while (root != null && (root.rightChild == null || root.rightChild == p)) {
+            while (root != null && ((root.rightChild == null) || (root.rightChild == p))) {
+
                 myprint(root.data);
                 p = root;
                 if (stack.size() == 0) {
@@ -231,35 +242,30 @@ public class BinaryTreePractice {
             root = root.rightChild;
 
         }
-
     }
 
 
     private void nonReLevelOrder(BinaryTreeNode root) {
-
         if (root == null) {
             return;
         }
 
-        Queue<BinaryTreeNode> queue = new LinkedList<>();
+        LinkedList<BinaryTreeNode> queue = new LinkedList<>();
 
         queue.add(root);
 
         while (queue.size() > 0) {
 
             root = queue.poll();
-
             myprint(root.data);
-
             if (root.leftChild != null) {
                 queue.add(root.leftChild);
             }
-
             if (root.rightChild != null) {
                 queue.add(root.rightChild);
             }
-
         }
+
     }
 
     public static void main(String[] args) {

@@ -11,36 +11,46 @@ import java.util.concurrent.ThreadPoolExecutor;
  * @des
  */
 public class Solution50B {
-    public boolean duplicateB(int numbers[], int length, int[] duplication) {
 
-        if (numbers == null || numbers.length == 0) {
-            return false;
+    public static void main(String[] args) {
+
+        System.out.println(duplicate(new int[]{1, 2, 3, 4, 4, 4, 4, 4, 5, 6, 7, 7, 8}));
+
+    }
+
+    public static int duplicate(int[] nums) {
+
+        if (nums == null || nums.length == 0) {
+            return -1;
         }
 
-        for (int i=0;i<numbers.length;i++) {
-            if (numbers[i] < 0 || numbers[i] > numbers.length - 1) {
-                return false;
-            }
-        }
 
-        for (int i=0;i<numbers.length;i++) {
-            while (numbers[i] != i) {
-                if (numbers[numbers[i]] == numbers[i]) {
-                    duplication[0] = numbers[i];
-                    return true;
+        int lo = 0;
+        int hi = nums.length - 1;
+
+        int mid = 0;
+
+        while (lo < hi) {
+            mid = lo + (hi - lo) / 2;
+            int count = 0;
+            for (Integer num : nums) {
+
+                if (num <= mid) {
+                    count++;
                 }
-                exch(numbers, numbers[i], i);
+            }
+            if (count <= mid) {
+                lo = mid + 1;
+            } else {
+                hi = mid;
             }
         }
 
+        return lo;
 
-        return false;
     }
 
 
-    private void exch(int[] numbers, int i, int j) {
-        int tmp = numbers[i];
-        numbers[i] = numbers[j];
-        numbers[j] = tmp;
-    }
 }
+
+

@@ -1,4 +1,5 @@
 import javax.swing.plaf.TableHeaderUI;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.*;
 
@@ -131,30 +132,49 @@ public class Test<T> {
 //        //System.out.println(future.get());
 
 
-        LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<>(0, 0.75f, true);
+//        LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<>(0, 0.75f, true);
+//
+//        linkedHashMap.put("one", "one");
+//        linkedHashMap.put("two", "two");
+//        linkedHashMap.put("three", "three");
+//
+//
+//        linkedHashMap.get("two");
+//
+//        Iterator iterator = linkedHashMap.entrySet().iterator();
+//
+//
+//        while (iterator.hasNext()) {
+//            System.out.println(iterator.next());
+//        }
+//
+//
+//
+//      //  System.out.println(generateOrderId());
+//
+//
+//        initEmojiMap(mHashMap);
+//
+//        System.out.println(mHashMap.size());
 
-        linkedHashMap.put("one", "one");
-        linkedHashMap.put("two", "two");
-        linkedHashMap.put("three", "three");
 
+        Date date = new Date();
 
-        linkedHashMap.get("two");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-        Iterator iterator = linkedHashMap.entrySet().iterator();
+        Date date1 = sdf.parse("2019-01-01 11:11:11");
+        Date date2 = sdf.parse("2019-01-15 11:11:11");
 
+        System.out.println(date.after(date1));
 
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
+        System.out.println(date.before(date2));
 
+        System.out.println(date.after(date1)&&date.before(date2));
 
+        System.out.println(date.before(date1));
 
-      //  System.out.println(generateOrderId());
+        System.out.println(date.after(date2));
 
-
-        initEmojiMap(mHashMap);
-
-        System.out.println(mHashMap.size());
     }
 
     //生成订单ID
@@ -275,8 +295,8 @@ public class Test<T> {
         if (array == null || array.length == 0) {
             throw new Exception("array==null||array.length==0");
         }
-        int result=0;
-        for(int i=0;i<array.length;i++) {
+        int result = 0;
+        for (int i = 0; i < array.length; i++) {
             result = array[i] ^ result;
         }
         return result;
@@ -313,12 +333,13 @@ public class Test<T> {
         void print();
     }
 
-    public enum ColorA implements Behaviour{
+    public enum ColorA implements Behaviour {
 
         RED("红色"), GREEN("绿色"), BLANK("白色"), YELLO("黄色");
 
         // 成员变量
         private String name;
+
         // 构造方法
         private ColorA(String name) {
             this.name = name;
@@ -328,6 +349,7 @@ public class Test<T> {
         public String getName() {
             return name;
         }
+
         public void setName(String name) {
             this.name = name;
         }
@@ -339,24 +361,24 @@ public class Test<T> {
         }
     }
 
-    public enum ColorB implements Behaviour{
+    public enum ColorB implements Behaviour {
 
-        RED("红色"){
+        RED("红色") {
             @Override
             public void print() {
                 System.out.println(RED.name);
             }
-        }, GREEN("绿色"){
+        }, GREEN("绿色") {
             @Override
             public void print() {
                 System.out.println(GREEN.name);
             }
-        }, BLANK("白色"){
+        }, BLANK("白色") {
             @Override
             public void print() {
                 System.out.println(BLANK.name);
             }
-        }, YELLO("黄色"){
+        }, YELLO("黄色") {
             @Override
             public void print() {
                 System.out.println(YELLO.name);
@@ -365,6 +387,7 @@ public class Test<T> {
 
         // 成员变量
         private String name;
+
         // 构造方法
         private ColorB(String name) {
             this.name = name;
@@ -374,6 +397,7 @@ public class Test<T> {
         public String getName() {
             return name;
         }
+
         public void setName(String name) {
             this.name = name;
         }
@@ -381,8 +405,7 @@ public class Test<T> {
     }
 
 
-
-    static class  ThreadTesterA implements Runnable {
+    static class ThreadTesterA implements Runnable {
 
         private int counter;
 
@@ -411,9 +434,9 @@ public class Test<T> {
     }
 
 
-    private static HashMap<String,String> mHashMap = new HashMap<>();
+    private static HashMap<String, String> mHashMap = new HashMap<>();
 
-    private  static void initEmojiMap(HashMap<String,String> mHashMap) {
+    private static void initEmojiMap(HashMap<String, String> mHashMap) {
         mHashMap.put("/{dx", "[大笑]");
         mHashMap.put("/{sh", "[送花]");
         mHashMap.put("/{tx", "[偷笑]");
@@ -454,7 +477,6 @@ public class Test<T> {
         mHashMap.put("/{xd", "[心动]");
         mHashMap.put("/{dao", "[刀]");
     }
-
 
 
 }

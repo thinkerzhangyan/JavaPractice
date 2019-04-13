@@ -11,10 +11,10 @@ public class Solution21B {
 
     public boolean isPopOrder(int[] push, int[] pop) {
 
-
         if (push == null || push.length == 0 || pop == null || pop.length == 0) {
             return false;
         }
+
 
         LinkedList<Integer> stack = new LinkedList<>();
 

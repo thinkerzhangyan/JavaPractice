@@ -17,45 +17,47 @@ public class Solution6B {
             return -1;
         }
 
-        int headIndex = 0;
-        int tailIndex = array.length - 1;
+        int head = 0;
+        int tail = array.length - 1;
 
-        int mid = headIndex;
+        int mid = head;
 
-        while (array[headIndex] >= array[tailIndex]) {
+        while (array[head] >= array[tail]) {
 
-            if (tailIndex - headIndex == 1) {
-                return array[tailIndex];
+            if (tail - head == 1) {
+                return array[tail];
             }
 
-            mid = headIndex + (tailIndex - headIndex) / 2;
+            mid = head + (tail - head) / 2;
 
-            if (array[headIndex] == array[mid] && array[tailIndex] == array[mid]) {
-                return findMinNumberInRotateArray(array, headIndex, tailIndex);
+            if ((array[mid] == array[head]) && (array[mid] == array[tail])) {
+                return findMinNumber(array, head, tail);
             }
-            if (array[mid] >= array[headIndex]) {
-                headIndex = mid;
-            } else if (array[mid] <= array[tailIndex]) {
-                tailIndex = mid;
+
+            if (array[mid] >= array[head]) {
+                head = mid;
+            } else if (array[mid] <= array[tail]) {
+                tail = mid;
             }
+
         }
-
 
         return array[mid];
     }
 
-
-    private int findMinNumberInRotateArray(int[] array, int head, int tail) {
+    private int findMinNumber(int[] array, int head, int tail) {
 
         int min = array[head];
 
-        for (int index=head+1;index<=tail;index++) {
-            if (array[index] < min) {
-                min = array[index];
+        for (int i = head + 1; i <= tail; i++) {
+            if (array[i] < min) {
+                min = array[i];
             }
         }
 
         return min;
+
     }
+
 
 }

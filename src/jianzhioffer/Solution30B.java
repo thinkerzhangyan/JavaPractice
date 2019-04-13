@@ -9,24 +9,30 @@ public class Solution30B {
 
     public int FindGreatestSumOfSubArray(int[] array) {
 
+
         if (array == null || array.length == 0) {
             return -1;
         }
 
-        int sum = 0;
         int maxSum = Integer.MIN_VALUE;
 
-        for (int i=0;i<array.length;i++) {
-            if (sum <= 0) {
-                sum = array[i];
+        int curSum = 0;
+
+
+        for (int i=1;i<array.length;i++) {
+
+            if (curSum < 0) {
+                curSum = array[i];
             } else {
-                sum += array[i];
+                curSum += array[i];
             }
-            if (maxSum < sum) {
-                maxSum = sum;
+
+            if (curSum > maxSum) {
+                maxSum = curSum;
             }
         }
 
         return maxSum;
+
     }
 }

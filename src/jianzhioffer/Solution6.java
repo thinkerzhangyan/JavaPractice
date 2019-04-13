@@ -54,5 +54,7 @@ public class Solution6 {
         return min;
 
     }
+
+
 }
 

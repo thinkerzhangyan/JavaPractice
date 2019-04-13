@@ -40,6 +40,37 @@ public class BinarySearchPractice {
     }
 
 
+    private static int nonReBinarySearch(int[] array, int target) {
+
+        if (array == null || array.length == 0) {
+            return -1;
+        }
+
+        int lo = 0;
+        int hi = array.length - 1;
+
+        int mid = 0;
+
+        while (lo <= hi) {
+
+            mid = lo + (hi - lo) / 2;
+
+            if (array[mid] == target) {
+                return mid;
+            } else if (array[mid] < target) {
+                lo = mid + 1;
+            } else {
+                hi = mid - 1;
+            }
+
+        }
+
+
+        return -1;
+
+    }
+
+
     private static int reBinarySearch(int[] array, int target) {
 
         if (array == null || array.length == 0) {
@@ -49,54 +80,21 @@ public class BinarySearchPractice {
         return reBinarySearch(array, target, 0, array.length - 1);
     }
 
-    private static int reBinarySearch(int[] array, int target, int head, int tail) {
+    private static int reBinarySearch(int[] array, int target, int lo, int hi) {
 
-        if (head > tail) {
+        if (lo > hi) {
             return -1;
         }
 
-        int mid = head + (tail - head) / 2;
+        int mid = lo + (hi - lo) / 2;
 
         if (array[mid] == target) {
             return mid;
         } else if (array[mid] < target) {
-            return reBinarySearch(array, target, mid + 1, tail);
+            return reBinarySearch(array, target, mid + 1, hi);
         } else {
-            return reBinarySearch(array, target, head, mid - 1);
+            return reBinarySearch(array, target, lo, mid - 1);
         }
-
     }
-
-
-    private static int nonReBinarySearch(int[] array, int target) {
-
-
-        if (array == null || array.length == 0) {
-            return -1;
-        }
-
-        int head = 0;
-
-        int tail = array.length - 1;
-
-        int mid = 0;
-
-        while (head <= tail) {
-
-            mid = head + (tail - head) / 2;
-
-            if (array[mid] == target) {
-                return mid;
-            } else if (array[mid] < target) {
-                head = mid + 1;
-            } else {
-                tail = mid - 1;
-            }
-
-        }
-
-        return -1;
-    }
-
 
 }

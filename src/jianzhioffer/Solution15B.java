@@ -1,7 +1,5 @@
 package jianzhioffer;
 
-import java.util.List;
-
 /**
  * @author zhangyan
  * @date 2018/1/23
