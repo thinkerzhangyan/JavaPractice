@@ -37,4 +37,8 @@ public class MaxStack {
     public int max() {
         return stack2.peek();
     }
+
+    public boolean empty() {
+        return stack1.isEmpty() && stack2.isEmpty();
+    }
 }
