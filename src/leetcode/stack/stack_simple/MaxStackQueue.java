@@ -1,4 +1,4 @@
-package leetcode.stack_simple;
+package leetcode.stack.stack_simple;
 
 public class MaxStackQueue {
 

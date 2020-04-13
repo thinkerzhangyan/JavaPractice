@@ -1,8 +1,7 @@
-package leetcode.stack_simple;
+package leetcode.stack.stack_simple;
 
 import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.Stack;
 
 public class NextGreaterNumber {
     public int[] nextGreaterNumOne(int[] nums1, int[] nums2) {

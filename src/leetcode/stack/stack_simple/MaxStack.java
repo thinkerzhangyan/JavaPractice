@@ -1,13 +1,13 @@
-package leetcode.stack_simple;
+package leetcode.stack.stack_simple;
 
 import java.util.LinkedList;
 
-public class MinStack {
+public class MaxStack {
 
     private LinkedList<Integer> stack1 = new LinkedList<>();
     private LinkedList<Integer> stack2 = new LinkedList<>();
 
-    public MinStack() {
+    public MaxStack() {
 
     }
 
@@ -16,7 +16,7 @@ public class MinStack {
         if (stack2.isEmpty()) {
             stack2.push(val);
         } else {
-            if (stack2.peek() < val) {
+            if (stack2.peek() > val) {
                 stack2.push(stack2.peek());
             } else {
                 stack2.push(val);
@@ -33,8 +33,12 @@ public class MinStack {
         return stack1.peek();
     }
 
-    public int getMin() {
+    public int max() {
         return stack2.peek();
+    }
+
+    public boolean isEmpty() {
+        return stack1.isEmpty() && stack2.isEmpty();
     }
 
 }
