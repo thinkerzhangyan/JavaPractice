@@ -74,6 +74,8 @@ Solution20  包含最小项的栈
 
 Solution21  栈的压入弹出序列
 
+MaxStack    包含最大项的栈 
+
 ## 队列相关
 
 MySelfQueue 自己实现一个队列  
