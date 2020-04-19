@@ -74,11 +74,15 @@ Solution20  包含最小项的栈
 
 Solution21  栈的压入弹出序列
 
+MaxStack    包含最大项的栈 
+
 ## 队列相关
 
 MySelfQueue 自己实现一个队列  
 
 Solution5Q  用两个栈实现队列  
+
+MaxQueue    包含最大项目的队列
 
 ## 链表相关
 
