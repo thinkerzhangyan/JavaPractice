@@ -11,10 +11,9 @@ public class Solution6B {
 
     }
 
-    private int findMinNumberInRotateArray(int[] array) throws Exception {
-
+    public int minNumberInRotareArray(int[] array) {
         if (array == null || array.length == 0) {
-            return -1;
+            return 0;
         }
 
         int head = 0;
@@ -23,41 +22,31 @@ public class Solution6B {
         int mid = head;
 
         while (array[head] >= array[tail]) {
-
             if (tail - head == 1) {
                 return array[tail];
             }
-
             mid = head + (tail - head) / 2;
-
-            if ((array[mid] == array[head]) && (array[mid] == array[tail])) {
-                return findMinNumber(array, head, tail);
+            if (array[head] == array[mid] && array[tail] == array[mid]) {
+                return minInArray(array, head, tail);
             }
-
             if (array[mid] >= array[head]) {
                 head = mid;
             } else if (array[mid] <= array[tail]) {
                 tail = mid;
             }
-
         }
 
         return array[mid];
     }
 
-    private int findMinNumber(int[] array, int head, int tail) {
-
+    private int minInArray(int[] array, int head, int tail) {
         int min = array[head];
-
-        for (int i = head + 1; i <= tail; i++) {
-            if (array[i] < min) {
-                min = array[i];
+        for (int index = head+1;index<=tail;index++) {
+            if (array[index] < min) {
+                min = array[index];
             }
         }
-
         return min;
-
     }
-
 
 }

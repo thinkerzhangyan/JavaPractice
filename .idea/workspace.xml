@@ -2,10 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a844e948-a85d-4ba8-badb-1e8b13ab5a82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jianzhioffer/MaxQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/array/KTthNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/list/DecimalValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/list/DeleteNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/list/DeleteNonSortListDuplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/list/DeleteSortListDuplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/list/IntersectionNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/list/ListNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/list/MiddleNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/list/Palindrome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Child.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Parent.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/RandomListNodeB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution13B$MyStandardInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution15A.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution15AA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution15B.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution15BB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution20B.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution25B.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution29B$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution3B.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution55A.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution55AA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution56B.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution5Q.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution5QB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution5S.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution5SB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution15AA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution15BB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution20B.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution25B.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution3B.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution55AA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution56B.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution5QB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution5SB.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution15A.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/ReveseList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution15B.java" afterPath="$PROJECT_DIR$/src/leetcode/list/HasCircle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution20.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/StackWithMin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution55A.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/DetectCycle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution5Q.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/StackToQueue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution5S.java" afterPath="$PROJECT_DIR$/src/leetcode/stack/QueueToStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/RandomListNode.class" afterPath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/RandomListNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution13B.class" afterPath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution13B.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution19B.class" afterPath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution19B.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution1B.class" afterPath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution1B.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution25.class" afterPath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution25.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution28B.class" afterPath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution28B.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution29B.class" afterPath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution29B.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution56.class" afterPath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution56.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution6B.class" afterPath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/Solution6B.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/search/BinarySearchPractice.class" afterPath="$PROJECT_DIR$/out/production/Practice/search/BinarySearchPractice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/sort/SortPractice.class" afterPath="$PROJECT_DIR$/out/production/Practice/sort/SortPractice.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jianzhioffer/MaxStack.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/MaxStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/ReadMe" afterPath="$PROJECT_DIR$/out/production/Practice/jianzhioffer/ReadMe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jianzhioffer/ReadMe" afterPath="$PROJECT_DIR$/src/jianzhioffer/ReadMe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution13B.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Solution13B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution19B.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Solution19B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution1B.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Solution1B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution25.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Solution25.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution28B.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Solution28B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution29B.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Solution29B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution56.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Solution56.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jianzhioffer/Solution6B.java" afterPath="$PROJECT_DIR$/src/jianzhioffer/Solution6B.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/BinarySearchPractice.java" afterPath="$PROJECT_DIR$/src/search/BinarySearchPractice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sort/SortPractice.java" afterPath="$PROJECT_DIR$/src/sort/SortPractice.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,73 +95,7 @@
     <favorites_list name="Practice" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ReadMe" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jianzhioffer/ReadMe">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="262">
-                <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxStackQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/MaxStackQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution5Q.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution5Q.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxQueue.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/jianzhioffer/MaxQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="54" column="73" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="54" selection-end-column="73" />
-              <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jianzhioffer/MaxStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding>
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,6 +113,9 @@
       <find>itera</find>
       <find>iterator</find>
       <find>hash</find>
+      <find>jianzhioffer.</find>
+      <find>leetcode.list.</find>
+      <find>while \(j \!\= target\) \{\n            if \(j \&lt; target\) \{\n                head \= j \+ 1\;\n            \} else if \(j \&gt; target\) \{\n                tail \= j \- 1\;\n            \}\n            j \= partition\(nums\, head\, tail\)\;\n        \}\n        return nums\[j\]\;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,57 +129,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution81.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution85.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution30.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution86.java" />
-        <option value="$PROJECT_DIR$/src/sort/SortPractice.java" />
-        <option value="$PROJECT_DIR$/src/search/BinarySearchPractice.java" />
-        <option value="$PROJECT_DIR$/src/binarytree/BinaryTreePractice.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution21B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution3.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution14B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution15A.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution15AA.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution25B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution56B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution1B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution6B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution13B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution19.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution6.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution19B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution30B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution32.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution32B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution37B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution50B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution50.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution7B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution8B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution9B.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution10B.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/ValidBracket.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/ValidBracketPractice.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/RemoveOuterBracket.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/BackspaceCompare.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/simple_stack/StackQueue.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/StackQueue.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/stack_simple/BackspaceCompare.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/stack_simple/StackQueue.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/stack_simple/MaxStack.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/stack_simple/MaxStackQueue.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/stack_simple/MaxSlidingWindow.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/stack/stack_simple/RemoveOuterBracket.java" />
         <option value="$PROJECT_DIR$/src/leetcode/queue/RecentCounter.java" />
         <option value="$PROJECT_DIR$/src/jianzhioffer/Solution33B.java" />
         <option value="$PROJECT_DIR$/src/leetcode/queue/Solution33B.java" />
         <option value="$PROJECT_DIR$/src/leetcode/queue/KNumber.java" />
         <option value="$PROJECT_DIR$/src/jianzhioffer/Solution5MQ.java" />
-        <option value="$PROJECT_DIR$/src/jianzhioffer/ReadMe" />
         <option value="$PROJECT_DIR$/src/jianzhioffer/MaxStack.java" />
         <option value="$PROJECT_DIR$/src/jianzhioffer/MaxQueue.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution88.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution3.java" />
+        <option value="$PROJECT_DIR$/src/thread/BoundBufferPractice.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution15AA.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/Palindrome.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution16B.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/Solution15B.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/HasCircle.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/IntersectionNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/DetectCycle.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/DetectCycle.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution14B.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/RandomListNode.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution25B.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution25.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/Solution56.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution56.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/DeleteDuplication.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/DeleteNonSortListDuplication.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/DeleteNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/MiddleNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/list/DecimalValue.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution3B.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution5SB.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/queue/QueueToStack.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/stack/QueueToStack.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution5QB.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution20B.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/MaxStackP.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution1B.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution13.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution6B.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution13B.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution19B.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution28B.java" />
+        <option value="$PROJECT_DIR$/src/sort/SortPractice.java" />
+        <option value="$PROJECT_DIR$/src/sort/Heap.java" />
+        <option value="$PROJECT_DIR$/src/search/BinarySearchPractice.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/Solution29B.java" />
+        <option value="$PROJECT_DIR$/src/jianzhioffer/ReadMe" />
+        <option value="$PROJECT_DIR$/src/leetcode/array/KTthNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/Parent.java" />
+        <option value="$PROJECT_DIR$/src/test/Child.java" />
       </list>
     </option>
   </component>
@@ -211,8 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,61 +252,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stack_simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,11 +278,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
       <recent name="jianzhioffer" />
+      <recent name="leetcode.queue" />
+      <recent name="leetcode.list" />
       <recent name="leetcode.stack_simple" />
-      <recent name="leetcode" />
-      <recent name="shujujiegou" />
-      <recent name="shujujiegoulianxi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/leetcode" />
@@ -339,15 +292,15 @@
       <recent name="$PROJECT_DIR$/src/thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration default="false" name="Solution37B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Child">
+    <configuration default="false" name="SortPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="jianzhioffer.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="jianzhioffer.Solution37B" />
+      <option name="MAIN_CLASS_NAME" value="sort.SortPractice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -360,14 +313,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Solution50B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BinarySearchPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="jianzhioffer.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="jianzhioffer.Solution50B" />
+      <option name="MAIN_CLASS_NAME" value="search.BinarySearchPractice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -380,14 +333,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Solution82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="KTthNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="jianzhioffer.*" />
+          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="jianzhioffer.Solution82" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.KTthNumber" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -400,14 +353,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Solution50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Solution29B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="jianzhioffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="jianzhioffer.Solution50" />
+      <option name="MAIN_CLASS_NAME" value="jianzhioffer.Solution29B" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -420,9 +373,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration default="false" name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="test.Child" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -802,19 +760,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Solution37B" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Solution50B" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Solution82" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Solution50" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SortPractice" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BinarySearchPractice" />
+      <item index="2" class="java.lang.String" itemvalue="Application.KTthNumber" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Solution29B" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Child" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Solution50" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Solution50B" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Solution82" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Solution37B" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Child" />
+        <item index="1" class="java.lang.String" itemvalue="Application.KTthNumber" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Solution29B" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BinarySearchPractice" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SortPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -1005,11 +963,34 @@
       <workItem from="1586509893717" duration="6264000" />
       <workItem from="1586682207268" duration="5318000" />
       <workItem from="1586764268209" duration="5685000" />
+      <workItem from="1587304996976" duration="4000" />
+      <workItem from="1587387976848" duration="884000" />
+      <workItem from="1587569171525" duration="176000" />
+      <workItem from="1587649033214" duration="5839000" />
+      <workItem from="1587904322417" duration="7104000" />
+      <workItem from="1588057689073" duration="2007000" />
+      <workItem from="1588125203332" duration="11337000" />
+      <workItem from="1588822552014" duration="925000" />
+      <workItem from="1588944965847" duration="330000" />
+      <workItem from="1588945627219" duration="3133000" />
+      <workItem from="1588988744258" duration="653000" />
+      <workItem from="1589980991159" duration="6615000" />
+      <workItem from="1590068583480" duration="601000" />
+      <workItem from="1590071588598" duration="521000" />
+      <workItem from="1590285415834" duration="8314000" />
+      <workItem from="1590494728825" duration="7237000" />
+      <workItem from="1590571658838" duration="7503000" />
+      <workItem from="1590977780098" duration="9471000" />
+      <workItem from="1591010424670" duration="3240000" />
+      <workItem from="1591018246630" duration="5212000" />
+      <workItem from="1591065939508" duration="19401000" />
+      <workItem from="1591101506095" duration="576000" />
+      <workItem from="1591713811811" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="692994000" />
+    <option name="totallyTimeSpent" value="794120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1022,38 +1003,38 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32464147" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30392158" sideWeight="0.5028818" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31234258" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292151" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.581864" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2720403" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274559" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27325583" sideWeight="0.49564135" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25797102" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29069766" sideWeight="0.49564135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292151" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25726745" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5251889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2673913" sideWeight="0.50435865" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5251889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31738034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272059" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32619646" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1122,19 +1103,19 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/jianzhioffer/Solution56B.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/jianzhioffer/Solution32.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/thread/BoundBufferPractice.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1143,406 +1124,322 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution6.java">
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/RandomListNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution25B.java" />
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution25.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution19B.java">
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution56.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="1392">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="58" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution28.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/list/DeleteSortListDuplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="113" column="17" lean-forward="true" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+        <state relative-caret-position="37">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution30B.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/list/DeleteNonSortListDuplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="23" column="102" lean-forward="false" selection-start-line="23" selection-start-column="102" selection-end-line="23" selection-end-column="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution30.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/list/DecimalValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="528">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution32B.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/list/MiddleNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="144">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution40.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/list/DeleteNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        <state relative-caret-position="265">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution37B.java">
+    <entry file="file://$PROJECT_DIR$/src/shujujiegou/BinaryHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        <state relative-caret-position="576">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution84.java">
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution3B.java" />
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution5S.java" />
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution5SB.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/QueueToStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="216">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution5QB.java" />
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/StackToQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution20B.java" />
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/StackWithMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="44" column="20" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/MaxStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution32.java">
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/MaxStackP.java" />
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/MaxQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="50" column="52" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="1296">
+          <caret line="54" column="71" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution37.java">
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution1B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution50B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution82.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="152" column="30" lean-forward="true" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution83.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2497">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution6B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution8B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="648">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="31" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution7B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution10B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution9B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shujujiegou/Fig01_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Rename.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/ValidBracketPractice.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/ValidBracket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/RemoveDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/CalculatePoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/BackspaceCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/QueueStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-          <folding>
-            <element signature="e#1032#1033#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/StackQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#289#290#0" expanded="false" />
-            <element signature="e#603#604#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/MaxStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-            <element signature="e#716#717#0" expanded="false" />
-            <element signature="e#752#753#0" expanded="false" />
-            <element signature="e#784#785#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/MaxSlidingWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/NextGreaterNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="51" column="62" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/RemoveOuterBracket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution50.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="160" column="9" lean-forward="true" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution33B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1033">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution33.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution34.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/queue/Solution33B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/queue/KNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/queue/RecentCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/BitMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="48">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/MySelfQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="1152">
+          <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/MySelfStack.java">
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1608">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution6B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/DetectCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution13B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="92" column="40" lean-forward="true" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution19B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution28B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="93" column="8" lean-forward="false" selection-start-line="93" selection-start-column="8" selection-end-line="115" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1776">
+          <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="75" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/OnSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Selection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Insertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Bubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/SortPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Shell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution5MQ.java">
+    <entry file="file://$PROJECT_DIR$/src/search/BinarySearchPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="1728">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution5Q.java">
+    <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="-83">
+          <caret line="62" column="64" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="62" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution29B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/Solution29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1368">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/Quick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/KTthNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1968">
+          <caret line="86" column="4" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jianzhioffer/ReadMe">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="262">
-            <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-            <folding />
+          <first_editor relative-caret-position="286">
+            <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/stack/stack_simple/MaxStackQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/test/Child.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/MaxStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="312">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jianzhioffer/MaxQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/test/Parent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="54" column="73" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="54" selection-end-column="73" />
+        <state relative-caret-position="240">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
           </folding>
         </state>
       </provider>

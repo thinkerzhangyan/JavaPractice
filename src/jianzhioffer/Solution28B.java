@@ -13,50 +13,43 @@ public class Solution28B {
     }
 
     public static int findNumerMoreThanHalfA(int[] array) {
-
         if (array == null || array.length == 0) {
             return 0;
         }
 
-        int middle = array.length >> 1;
+        int head = 0;
+        int tail = array.length - 1;
 
-        int lo = 0;
-        int hi = array.length - 1;
-
-        if (lo == hi) {
+        if (head == tail) {
             return array[0];
         }
 
-        int index = partition(array, lo, hi);
+        int mid = head + (tail - head) / 2;
 
-        while (middle != index) {
+        int j = partition(array, head, tail);
 
-            if (index < middle) {
-                lo = index + 1;
-                index = partition(array, lo, hi);
-            } else {
-                hi = index - 1;
-                index= partition(array, lo, hi);
+        while (j != mid) {
+            if (j < mid) {
+                head = j + 1;
+            } else if (j > mid) {
+                tail = j - 1;
             }
-
+            j = partition(array, head, tail);
         }
 
-        if (!checkInStandrdInput(array, array[middle])) {
+        if (!checkInStandrdInput(array, array[j])) {
             return 0;
         }
 
-        return array[middle];
-
+        return array[mid];
     }
 
     private static int partition(int[] array, int lo, int hi) {
-
         int i = lo, j = hi + 1;
-        int v = array[lo];
-
+        Integer v = array[lo];
         while (true) {
             while (less(array[++i], v)) if (i == hi) break;
-            while (less(v, array[--j])) if (j == lo) break;
+            while (less(v, array[--j])) if (j==lo) break;
             if (i >= j) {
                 break;
             }
@@ -66,7 +59,7 @@ public class Solution28B {
         return j;
     }
 
-    private static boolean less(int a, int b) {
+    private static boolean less(Integer a, Integer b) {
         return a < b;
     }
 
@@ -76,15 +69,15 @@ public class Solution28B {
         array[j] = tmp;
     }
 
-    private static boolean checkInStandrdInput(int[] array, int result) {
-        if (array == null || array.length == 0) {
+    private static boolean checkInStandrdInput(int[] array, int target) {
+        if (array == null || array.length == 0 ) {
             return false;
         }
 
         int count = 0;
 
-        for (int i=0;i<array.length;i++) {
-            if (array[i] == result) {
+        for (int index=0;index<array.length;index++) {
+            if (array[index] == target) {
                 count++;
             }
         }
@@ -98,30 +91,28 @@ public class Solution28B {
 
 
     public static int findNumerMoreThanHalfB(int[] array) {
-
         if (array == null || array.length == 0) {
             return 0;
         }
+        int times = 0;
+        int target = array[0];
 
-        int result = array[0];
-        int times = 1;
 
-        for (int i = 0; i < array.length; i++) {
-            if (times == 0) {
-                result = array[i];
+        for (int index=1;index<array.length;index++) {
+            if (target == array[index]) {
                 times++;
-            } else if (result == array[i]) {
-                times++;
+            } else if (times == 0) {
+                target = array[index];
+                times = 1;
             } else {
                 times--;
             }
         }
 
-        if (!checkInStandrdInput(array, result)) {
+        if (!checkInStandrdInput(array, target)) {
             return 0;
         }
 
-        return result;
-
+        return target;
     }
 }
